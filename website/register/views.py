@@ -6,3 +6,9 @@ from django.views import View
 def index(request):
     return HttpResponse("View: Registration index")
 
+from .forms import RegForm
+
+def reg_view(request):
+    context = {}
+    context['form'] = RegForm()
+    return render(request, 'reg.html', context)
