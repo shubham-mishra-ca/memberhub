@@ -1,0 +1,21 @@
+# Ignore system-generated files and directories
+*.pyc
+__pycache__/
+*.sqlite3
+
+# Ignore IDE and editor-specific files
+.vscode/
+.idea/
+*.pydevproject
+*.pyc
+*~
+
+# Ignore static files and media
+/staticfiles/
+/media/
+
+# Ignore environment-specific files
+.env
+.env.*
+*.env
+*.env.*
